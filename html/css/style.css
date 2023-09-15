@@ -1,0 +1,60 @@
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    overflow: hidden;
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: fit-content;
+    transform: translate(-50%, -50%);
+    border-radius: .2vw;
+    background-size: cover;
+    padding: 10px;
+    transition: opacity .4s;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    left: 50%;
+    font-size: 25px;
+}
+
+.text {
+    color: white;
+    font-size: 130%;
+    font-weight: bold;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, .5);
+}
+
+.title{
+    background-color: #662d91;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 2px;
+    color: white;
+}
+
+.input{
+    background-color: transparent;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 3px;
+    color: white;
+    border: 2px solid white;
+}
+
+.description{
+    background-color: rgba(255, 255, 255, 0.938);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 2px;
+    animation-name: show;
+    animation-duration: 0.2s;
+    color: rgb(12, 12, 12);
+    font-weight: 400;
+}
