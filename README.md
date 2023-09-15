@@ -2,6 +2,7 @@
 
 Simple example for the use of this resource
 
+
 CreateThread(function()
     while true do
         local sleep = 750
