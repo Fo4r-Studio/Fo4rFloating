@@ -1,6 +1,8 @@
 # Fo4rFloating
 
 Simple example for the use of this resource
+
+FloatingText('Test', 'W', 'Made for fo4rstudio',  vector3(5.5937, -1452.1647, 30.5350))
 ```
 CreateThread(function()
     while true do
